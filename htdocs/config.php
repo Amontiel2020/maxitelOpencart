@@ -6,9 +6,9 @@ define('HTTP_SERVER', 'http://'.$_SERVER['SERVER_NAME'].':80/opencart/');
 define('HTTPS_SERVER', 'https://'.$_SERVER['SERVER_NAME'].':443/opencart/');
 
 // DIR
-define('DIR_APPLICATION', '/opt/app-root/src/htdocs/htdocs/catalog/');
-define('DIR_SYSTEM', '/opt/app-root/src/htdocs/htdocs/system/');
-define('DIR_IMAGE', '/opt/app-root/src/htdocs/htdocs/image/');
+define('DIR_APPLICATION', '/opt/app-root/src/htdocs/catalog/');
+define('DIR_SYSTEM', '/opt/app-root/src/htdocs/system/');
+define('DIR_IMAGE', '/opt/app-root/src/htdocs/image/');
 define('DIR_STORAGE', '/opt/app-root/src/htdocs/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
