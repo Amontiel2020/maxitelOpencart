@@ -8,11 +8,11 @@ define('HTTPS_SERVER', 'https://'.$_SERVER['SERVER_NAME'].':443/opencart/admin/'
 define('HTTPS_CATALOG', 'https://'.$_SERVER['SERVER_NAME'].':443/opencart/');
 
 // DIR
-define('DIR_APPLICATION', 'C:/xampp/apps/opencart/htdocs/admin/');
-define('DIR_SYSTEM', 'C:/xampp/apps/opencart/htdocs/system/');
-define('DIR_IMAGE', 'C:/xampp/apps/opencart/htdocs/image/');
-define('DIR_STORAGE', 'C:/xampp/apps/opencart/storage/');
-define('DIR_CATALOG', 'C:/xampp/apps/opencart/htdocs/catalog/');
+define('DIR_APPLICATION', '/opt/app-root/src/htdocs/admin/');
+define('DIR_SYSTEM', '/opt/app-root/src/htdocs/system/');
+define('DIR_IMAGE', '/opt/app-root/src/htdocs/image/');
+define('DIR_STORAGE', '/opt/app-root/src/storage/');
+define('DIR_CATALOG', '/opt/app-root/src/htdocs/catalog/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
